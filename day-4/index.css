@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#F7E8DD;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+}
+
+h1{
+    margin-bottom:30px;
+    color:#c9a15a;
+    font-size:48px;
+    letter-spacing:3px;
+    text-shadow:2px 2px 5px rgba(0,0,0,0.15);
+}
+
+.keyboard{
+    background:transparent;
+    padding:20px;
+    
+}
+
+.row{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    margin-bottom:12px;
+}
+
+button{
+    width:60px;
+    height:55px;
+    border:none;
+    border-radius:10px;
+    background:#ffffff;
+    color:#666666;
+    font-size:16px;
+    cursor:pointer;
+    box-shadow:-2px -2px 6px rgba(255,255,255,0.9),4px 4px 10px rgba(0,0,0,0.15);
+    transition: 0.2s;
+                
+button:hover{
+    transform:translateY(-2px);
+    box-shadow:-2px -2px 8px rgba(255,255,255,0.9),6px 6px 12px rgba(0,0,0,0.18);
+}
+button:active{
+    transform:scale(0.96);
+    box-shadow:inset 2px 2px 5px rgba(0,0,0,.15);
+}
+
+.backspace{
+    width:140px;
+}
+
+.tab{
+    width:100px;
+}
+
+.caps{
+    width:120px;
+}
+
+.enter{
+    width:120px;
+}
+
+.shift{
+    width:150px;
+}
+.ctrl,
+.alt,
+.fn,
+.win,
+.menu{
+    width:70px;
+}
+
+.space{
+    width:420px;
+}
+.arrow{
+    width:55px;
+}
+.home,
+.end,
+.pgup,
+.pgdn,
+.insert,
+.delete,
+.prtsc{
+    width:70px;
+}
