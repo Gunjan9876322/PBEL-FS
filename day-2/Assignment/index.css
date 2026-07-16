@@ -1,0 +1,11 @@
+h2{
+    text-align:center;
+    text-decoration: wavy underline;
+    letter-spacing:normal;
+    line-height:normal;
+    font-family:Candara;
+}
+p{
+    text-decoration:line-through;
+    font-family:Papyrus;
+}
